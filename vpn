@@ -1,12 +1,7 @@
 #!/bin?bash
 
-From a53d19a34be1301c4f4c37e9767ca698885b84fb Mon Sep 17 00:00:00 2001
-From: Roman Busyghin <nskboy@gmail.com>
-Date: Sun, 23 Oct 2011 20:37:52 +0400
-Subject: [PATCH] Ability to lookup OS X keychain to load VPN certificate
- 
-This patch is created by Brian Raderman <brian@irregularexpression.org> and modified a bit in order to be compiled with make instead of Xcode
----
+
+
  Makefile.am  |    9 +
  cert_data.c  |  631 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  cert_data.h  |   44 ++++
